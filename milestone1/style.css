@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.resume {
+    border: 2px solid black;
+    display: flex;
+    margin: 50px;
+    /* background-color: #dad7cd; */
+    background-color: white;
+    height: 1200px;
+   
+}
+
+/* left-column styling */
+
+.left-column {
+    margin-left: 80px;
+    margin-top:50px;
+    height:1000px;
+    width:250px;
+    background-color: #a3b18a;
+}
+
+.profile-picture {
+    padding: 50px;
+    height:150px;
+    width:150px;
+    border-radius: 100px;
+}
+
+.contact-details {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 14rem ;
+}
+
+.contact-details b{
+    text-align: center;
+}
+
+
+/* right-column styling */
+
+.right-column {
+    margin-left: 100px;
+    padding-top: 50px;
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5rem;
+    color: #a3b18a;
+}
+
+.right-column h1 {
+    color: #a3b18a;
+    text-decoration: underline;
+}
+
+.right-column p {
+    margin-right: 35px;
+    margin-top: 1rem;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+    margin-top: 30px;
+    border-radius: 3rem;
+}
+
+button:hover {
+    background-color: #a3b18a;
+}
+
+
+
+
